@@ -1,6 +1,6 @@
 
 /*
-* File: VolumePanel.java
+* File: Jlabel.java
 * Author: Megyeri Márk Máté
 * Copyright: 2022, Megyeri Márk Máté
 * Group: SZOFT II/N
@@ -9,13 +9,6 @@
 * Licenc: GNU GPL
 */
 package views;
-
-public class VolumePanel  extends InputPanel{
-
-    private Object label;
-
-    public void VolumPanel(){
-     this.label.setText("hang");
-    }
+public class JLabel {
     
 }
