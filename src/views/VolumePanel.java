@@ -12,10 +12,11 @@ package views;
 
 public class VolumePanel  extends InputPanel{
 
-    private Object label;
+   
 
-    public void VolumPanel(){
-     this.label.setText("hang");
+    public  VolumePanel(){
+        this.label.setText("Hang");
+
     }
     
 }

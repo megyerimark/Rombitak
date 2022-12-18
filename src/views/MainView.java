@@ -22,6 +22,7 @@ public class MainView extends JFrame
     public AreaPanel areaPanel;
     public VolumePanel volumePanel;
     public ButtonPanel buttonPanel;
+    public Object buttonsPanel;
 
     public MainView() 
     {
