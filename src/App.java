@@ -1,3 +1,5 @@
+import controllers.MainController;
+
 /*
 * File: App.java
 * Author: Megyeri Márk Máté

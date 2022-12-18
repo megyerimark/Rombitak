@@ -11,7 +11,6 @@ package controllers;
 
 import javax.swing.JButton;
 import javax.swing.JOptionPane;
-import views.MainView;
 
 public class MainController 
 {
