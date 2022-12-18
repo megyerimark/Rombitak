@@ -29,13 +29,11 @@ public class MainController{
     private void handleEvents() {
         JButton calcButton = this.mainView.buttonPanel.calcButton;
         JButton aboutButton = this.mainView.buttonPanel.aboutButton;
-        JButton refreshButton = this.mainView.buttonPanel.refreshButton;
         JButton exiButton = this.mainView.buttonPanel.exitButton;
         
        
         calcButton.addActionListener(e -> onClickCalcButton());
         aboutButton.addActionListener(e ->onClickCalcButton());
-        refreshButton.addActionListener(e ->onClickCalcButton());
         exiButton.addActionListener(e -> onClickCalcButton());
        
       
@@ -66,6 +64,6 @@ public class MainController{
         this.mainView.areaPanel.setValue(null);
     }
     public void OnClickExit(){
-        System.out.println("Kilépés");
+        System.out.println(0);
     }
 }

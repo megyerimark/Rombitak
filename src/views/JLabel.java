@@ -1,6 +1,6 @@
 
 /*
-* File: VolumePanel.java
+* File: Jlabel.java
 * Author: Megyeri Márk Máté
 * Copyright: 2022, Megyeri Márk Máté
 * Group: SZOFT II/N
@@ -10,13 +10,6 @@
 */
 package views;
 
-public class VolumePanel  extends InputPanel{
-
-   
-
-    public  VolumePanel(){
-        this.label.setText("Térfogat");
-
-    }
+public class JLabel {
     
 }

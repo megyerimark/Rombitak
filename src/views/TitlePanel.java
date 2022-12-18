@@ -17,14 +17,14 @@ import javax.swing.border.EmptyBorder;
 public class TitlePanel extends JPanel 
 {
     JLabel mainLabel;
-    JLabel pictureLabel;
+   
 
     public TitlePanel() 
     {
         this.mainLabel = new JLabel("Rombusz területe és kerülete");  
         this.mainLabel.setBorder(new EmptyBorder(10, 10, 10, 100));
         this.add(this.mainLabel);
-        this.add(this.pictureLabel);
+     
     }
     
 }

@@ -1,5 +1,5 @@
 /*
-* File: InputPaneé.java
+* File: ButtonPanel.java
 * Author: Megyeri Márk Máté
 * Copyright: 2022, Megyeri Márk Máté
 * Group: SZOFT II/N
@@ -16,15 +16,12 @@ public class ButtonPanel extends JPanel
 {
     public JButton calcButton;
     public JButton aboutButton;
-    public JButton refreshButton;
     public JButton exitButton;
 
     public ButtonPanel() 
     {
         calcButton = new JButton("Számít");
         aboutButton = new JButton("Rólam");
-      
-        refreshButton = new JButton("Újratölt");
         exitButton = new JButton("Bezárás");
         addComponents();
     }
@@ -33,7 +30,6 @@ public class ButtonPanel extends JPanel
     {
         add(calcButton);
         add(aboutButton);
-        add(refreshButton);
         add(exitButton);
     }
     
